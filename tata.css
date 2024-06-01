@@ -1,0 +1,470 @@
+body{
+    /* border: 1px solid red; */
+
+}
+header{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.items{
+    width: auto;
+    margin-left:20px;
+
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 15px;
+    transition: 0.3s;
+
+}
+.items a:hover{
+    color: tomato;
+}
+.rightside{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 40px;
+    margin-left: 100px;
+}
+.rightside img{
+    height: 30px;     
+    padding: 8px;
+}
+.rightside a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-family: monospace;
+    font-size: 12px;
+}
+.inputbox1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background: #f1f4f6;
+    outline: none;
+    border: 0px;
+    width: 15%;
+    padding: 7px;
+    text-transform: capitalize;
+}
+.inputbox1 input{
+    flex: 1;
+   background-color: transparent;
+   border: 0;
+   outline: 0;
+}
+.inputbox2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background: #f1f4f6;
+    outline: none;
+    border: 0px;
+    width: 40%;
+    padding: 7px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.inputbox2 input{
+flex: 1;
+background-color: transparent;
+border: 0;
+outline: 0;
+}
+.rightside2{
+    margin-left: 60px;
+}
+.rightside2 a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 12px;
+}
+#order{
+    width: 150px;
+    text-align: center;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+   border: 0;
+    outline: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+h1{
+    text-align: end;
+    color: #555;
+    font-family: monospace;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.add{
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+}
+.concerns{
+   width: 100%;
+   height: 200px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   /* border: 2px solid red; */
+   margin-bottom: 50px;
+   border-radius: 10px;
+}
+.prod{
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+    /* border: 2px solid blue; */
+    cursor: pointer;
+ 
+
+}
+.prod :hover{
+    border: 2px solid #e4d6d6;
+}
+.prod img{
+    margin: auto;
+    display: block;
+    width: 120px;
+    margin-top: 20px;
+}
+.prod p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.produ{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.Full_body_health_checkups{
+    background-color: rgb(177, 207, 248);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+     border-radius: 10px;
+}
+.checkups{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.checkup{
+    width: 300px;
+    height: 60%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    
+}
+.checkups :hover{
+   
+   background-color: ghostwhite;
+}
+#s{
+    text-decoration: line-through;
+}
+.flex{
+    display: flex;
+}
+.btnoff{
+    border-style: dotted;
+    border-color: green;
+    padding: 6px;
+    width: 60px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.Fuatured{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(138, 191, 238);
+    display: flex;
+    align-items: center;
+   margin-bottom: 50px;
+    padding left: 70px  ;
+    border-radius: 15px;
+}
+
+.collagen{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(177, 207, 248);
+    display: flex;
+    align-items: center;
+   margin-bottom: 50px;
+    padding left: 70px  ;
+    border-radius: 15px;
+}
+
+.collagen .prod{
+
+    margin-left: 50px;
+   
+}
+
+.collagen .prod p{
+
+    text-align: left;
+}
+
+.collagen .prod img{
+    size-adjust: auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    background-color: rgb(177, 207, 248);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-safe {
+    display: flex;
+    align-items: center;
+    background-color: #f9f1e6;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.card-safe img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.card-details {
+    color: #777;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.card-price {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    background-color: rgb(177, 207, 248);
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.product-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+}
+.product-delivery {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.product-mrp {
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+    margin-bottom: 4px;
+}
+.product-discount {
+    font-size: 14px;
+    color: green;
+    margin-bottom: 4px;
+}
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#head {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: solid #fff;
+  }
+  
+  #head h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #4CAF50;
+
+  }
+  
+  #head p {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #head button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #head input[type="tel"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 150px;
+  }
+  
+  nav ul li ul li {
+    display: block;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  main section h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  main section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
